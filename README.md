@@ -1,6 +1,8 @@
 # django-simple-auth-checker
 Simple django app to check for request.user.is_staff/is_superuser and respond with appropriate HTTP code. This can be used as nginx's auth_request handler to protect non-django resources with normal django authentication process.
 
+This can be used to add static/non-authorization-enabled resources behind Django auth system as a tivial SSO system.
+
 # Installation:
 
 1. Add simple_auth_checker to your INSTALLED_APPS
